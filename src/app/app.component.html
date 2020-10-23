@@ -1,0 +1,501 @@
+<h2>Visa Application</h2>
+
+<head>
+  <style> 
+    .tab { 
+        tab-size: 4; 
+    }  
+</style> 
+</head>
+<form >
+
+
+  <label for="applicantName">Applicant Name:<span class="tab"></span></label>
+  <input type="text" id="applicantName" name="applicantName "/><br/>
+
+  <label for="passportNumber">Passport Number:</label>
+  <input type="text" id="passportNumber" name="passportNumber" value=" "/><br/>
+
+  <label for="countryOfNationality">Country Of Nationality</label>
+  <input type="text" id="countryOfNationality" name="countryOfNationality" ><br>
+
+  <label for="dateOfBirth">Date Of Birth:</label>
+  <input type="date" id="dateOfBirth" name="dateOfBirth" ><br>
+
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+
+  <label for="dateOfApplication">Date Of Application:</label>
+  <input type="date" id="dateOfApplication" name="dateOfApplication" ><br>
+
+  <p>Type Of Visa Application:</p>
+  <input type="radio" id="businessVisa" name="typeOfVisaApplication" value="Business Visa">
+  <label for="businessVisa">Business Visa</label>
+  <input type="radio" id="workVisa" name="typeOfVisaApplication" value="Work Visa">
+  <label for="workVisa">Work Visa</label>
+  <input type="radio" id="studentVisa" name="typeOfVisaApplication" value="Student Visa">
+  <label for="studentVisa">Student Visa</label><br>
+
+  <p>Service Option:</p>
+  <input type="radio" id="visaAtYourDoorstep" name="serviceOption" value="Visa At Your Doorstep">
+  <label for="visaAtYourDoorstep">Visa At Your Doorstep</label>
+  <input type="radio" id="priorityAndSuperPriorityVisaServices" name="serviceOption" value="Priority And SuperPriority Visa Services">
+  <label for="priorityAndSuperPriorityVisaServices">Priority And SuperPriority Visa Services</label>
+  <input type="radio" id="primeTimeServices" name="primeTimeServices" value="Prime Time Services">
+  <label for="primeTimeServices">Prime Time Services</label><br>
+
+  <label for="from">Duration Of Visa:</label><br>
+
+  <label for="from">from:</label>
+  <input type="date" id="from" name="from" value="from"><br>
+  <label for="to">to:</label>
+  <input type="date" id="to" name="to" value="to"><br>
+
+  <label for="totalFee">Total Fee:</label>
+  <input type="text" id="totalFee" name="totalFee" value=" "><br>
+
+  <label for="submissionMethod">Submission Method:</label>
+  <input type="text" id="submissionMethod" name="submissionMethod" value=" "><br>
+
+  <label for="paymentReference">Payment Reference:</label><br>
+  <input type="checkbox" id="paymentReference" name="paymentReference" value="OnlineBankingTransfer">
+  <label for="paymentReference"> Online Banking Transfer</label><br>
+  <input type="checkbox" id="" name="paymentReference" value="OnlinePaymentWithADebitCard">
+  <label for="vehicle2">Online Payment With A DebitCard </label><br>
+  <input type="checkbox" id="paymentReference" name="paymentReference" value="Cash">
+  <label for="paymentReference"> Cash</label><br>
+
+  <label for="contactEmail">Contact Email:</label>
+  <input type="text" id="contactEmail" name="contactEmail" value=" "><br>
+
+  <label for="contactLanguage">Contact Language:</label>
+  <input type="text" id="contactLanguage" name="contactLanguage" value=" "><br>
+
+  <label for="placeOfBirth">Place Of Birth:</label>
+  <input type="text" id="placeOfBirth" name="placeOfBirth" value=" "><br>
+
+  
+  <label for="countryOfBirth">Country Of Birth:</label>
+  <input type="text" id="countryOfBirth" name="countryOfBirth" value=" "><br>
+
+  <label for="whatIsYourRelationshipStatus ?">What Is Your Relationship Status ?</label><br>
+  <select name="whatIsYourRelationshipStatus ?" id="whatIsYourRelationshipStatus">
+    <option value="married">Married</option>
+    <option value="unmarried">Unmarried</option>
+    <option value="divorced">Divorced</option>
+    <option value="widow">Widow</option>
+  </select>
+  <br>
+
+  <p>What is your gender,as shown in your passport or travel document ?</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+
+  <p>Do you have another email address ?</p>
+  <input type="radio" id="doYouHaveAnotherEmailAddress" name="doYouHaveAnotherEmailAddress">
+  <label for="doYouHaveAnotherEmailAddress">Yes</label>
+  <input type="radio" id="doYouHaveAnotherEmailAddress" name="doYouHaveAnotherEmailAddress">
+  <label for="doYouHaveAnotherEmailAddress">No</label><br>
+
+  <label for=whoDoeSThisEmailAddressBelongTo >Who does this Email address belong to ?</label>
+  <input type="text" id="whoDoeSThisEmailAddressBelongTo" name="whoDoeSThisEmailAddressBelongTo"><br>
+
+  <p>Are You Now Or Have You Ever Been Known By Another Name ?</p>
+  <input type="radio" id="areYouNowOrHaveYouEverBeenKnownByAnotherName" name="areYouNowOrHaveYouEverBeenKnownByAnotherName">
+  <label for="areYouNowOrHaveYouEverBeenKnownByAnotherName">Yes</label>
+  <input type="radio" id="areYouNowOrHaveYouEverBeenKnownByAnotherName" name="areYouNowOrHaveYouEverBeenKnownByAnotherName">
+  <label for="areYouNowOrHaveYouEverBeenKnownByAnotherName">No</label><br>
+
+  <label for=familyName >Family Name :</label>
+  <input type="text" id="familyName" name="familyName"><br>
+
+  <label for="dateYouPlanToLeaveTheUK"> Date you plan to leave the UK:</label>
+  <input type="date" id="dateYouPlanToLeaveTheUK" name="dateYouPlanToLeaveTheUK" ><br>
+
+
+  <label for="dateYouPlanToArriveTheUK">Date you plan to arrive the Uk:</label>
+  <input type="date" id="dateYouPlanToArriveTheUK" name="dateYouPlanToArriveTheUK" ><br>
+
+  <label for=giveDetailsOfTheMainPurposeOfYourVisitAndAnythingElseYouPlanToDoOnYourTrip > Give details Of the main purpose of your visit and anything else you plan to do on your Trip.</label><br>
+  <input type="text" id="giveDetailsOfTheMainPurposeOfYourVisitAndAnythingElseYouPlanToDoOnYourTrip" name="giveDetailsOfTheMainPurposeOfYourVisitAndAnythingElseYouPlanToDoOnYourTrip"><br>
+
+  <label for="reasonforPayment">what are you being paid for:</label>
+  <input type="text" id="reasonforPayment" name="reasonforPayment" ><br>
+
+  <label for="salary">How much will you be paid?</label><br>
+  <select name="salary" id="salary">
+    <option value="one">0-1</option>
+    <option value="two">1-2</option>
+    <option value="three">2-3</option>
+    <option value="four">3-4</option>
+  </select>
+  <br>
+
+  <label for="guradian">Who will be paying you while you are in UK:</label>
+  <input type="text" id="guradian" name="guradian" ><br>
+
+  <label for="expiryDate"> Expiry date:</label>
+  <input type="date" id="expiryDate" name="expiryDate" ><br>
+
+  <label for="issueDate"> Issue date:</label>
+  <input type="date" id="issueDate" name="issueDate"><br>
+
+  <label for="issueAuthority">Issue Authority:</label>
+  <input type="text" id="issueAuthority" name="issueAuthority" ><br>
+
+  <p>Are you able to be contacted by telephone:</p>
+  <input type="radio" id="yes" name="yes" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="no" value="no">
+  <label for="no">No</label>
+
+  
+  <label for="modeOfContact">Select whether this is your home, mobile or work Mobile telephone number</label><br>
+  <select name="modeOfContact" id="modeOfContact">
+    <option value="home">Home</option>
+    <option value="mobile">Mobile</option>
+    <option value="workMobile">Work Mobile</option>
+  </select>
+  <br>
+
+  <label for="location">Where do you use this telephone number:</label>
+  <select name="location" id="location">
+    <option value="home">Home</option>
+    <option value="mobile">Mobile</option>
+    <option value="workMobile">Work Mobile</option>
+  </select>
+  <br>
+
+  <p>Have you ever been given medical treatment in UK?</p>
+  <input type="radio" id="yes1" name="yes1" value="yes1">
+  <label for="yes1">Yes</label>
+  <input type="radio" id="no1" name="no1" value="no1">
+  <label for="no1">No</label>
+
+  <p>Do you have UK driving licence? </p>
+  <input type="radio" id="yes2" name="yes2" value="yes2">
+  <label for="yes2">Yes</label>
+  <input type="radio" id="no2" name="no2" value="no2">
+  <label for="no2">No</label>
+
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address" ><br>
+
+  <label for="ownership">What is the ownership status of home?</label>
+  <input type="text" id="ownership" name="ownership" ><br>
+
+
+  <label for="duration">How long have you lived at this address ?</label><br>
+  <select name="duration" id="duration">
+    <option value="one">0-1 years</option>
+    <option value="two">1-2 years</option>
+    <option value="three">2-3 years</option>
+    <option value="greaterThanThree"> >3 years</option>
+  </select>
+  <br>
+
+  <p>Is this address also you correspondence address? </p>
+  <input type="radio" id="yes3" name="yes3" value="yes3">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no3" name="no3" value="no3">
+  <label for="no">No</label>
+
+
+  <p>Do you currently hold, or have you ever held, any other nationality or citizenship?</p>
+  <input type="radio" id="yes4" name="yes4" value="yes4">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no4" name="no4" value="no4">
+  <label for="no">No</label>
+
+
+  <label for="identityNumber">National identity card number</label>
+  <input type="text" id="identityNumber" name="identityNumber" ><br>
+
+  <label for="employer'sName">Employer's Name</label>
+  <input type="text" id="employer'sName" name="employer'sName" ><br>
+    
+  
+  <label for="employer'sAddress">Employer's Address</label>
+  <input type="text" id="employer'sAddress" name="employer'sAddress" ><br>
+
+   
+  <label for="employer">Date you started working for this employer</label>
+  <input type="date" id="employer" name="dateyoustartedworkingforthisemployer" ><br> 
+
+  <p>What is your employment status?</p>
+  <input type="radio" id="yes5" name="yes5" value="yes5">
+  <label for="yes5">Yes</label>
+  <input type="radio" id="no5" name="no5" value="no5">
+  <label for="no5">No</label>
+
+  <label for="dependentDetails">Dependent Details</label>
+  <input type="text" id="dependentDetails" name="dependentDetails" ><br>
+
+  <label for="familyName">Family Name</label>
+  <input type="text" id="familyName" name="familyName" ><br>
+
+  
+  <label for="givenName">Given Name</label>
+  <input type="text" id="givenName" name="givenName" ><br>
+
+  <label for="relationshipStatus">What Is This Person's Relationship To You ?</label>
+  <input type="text" id="relationshipStatus" name="WhatIsThisPerson'sRelationshipToYou?" ><br>
+
+  <p>Have They Always Had The Same Nationality ?</p>
+  <input type="radio" id="yes6" name="yes6" value="yes6">
+  <label for="yes6">Yes</label>
+  <input type="radio" id="no6" name="no6" value="no6">
+  <label for="no6">No</label>
+
+  <label for="nationality">Country Of Nationality</label>
+  <input type="text" id="nationality" name="countryOfNationality" ><br>
+
+
+  <label for="dateOfBirth">Date Of Birth:</label>
+  <input type="date" id="dateOfBirth" name="dateOfBirth" ><br>
+
+  <p>Does Anyone Rely On You For Financial Support ?</p>
+  <input type="radio" id="yes7" name="yes7" value="yes7">
+  <label for="yes7">Yes</label>
+  <input type="radio" id="no6" name="no6" value="no6">
+  <label for="no6">No</label>
+
+
+  <p>Have You Received Any Public Funds (money) In The UK ?</p>
+  <input type="radio" id="yes6" name="yes6" value="yes6">
+  <label for="yes6">Yes</label>
+  <input type="radio" id="no7" name="no7" value="no7">
+  <label for="no7">No</label>
+
+  
+  <p>Where Do You Plan To Stay In The UK ?</p>
+  <input type="radio" id="yes8" name="yes8" value="yes8">
+  <label for="yes8">Yes</label>
+  <input type="radio" id="no8" name="no8" value="no8">
+  <label for="no8">No</label>
+    
+
+  
+  <p>Do You Have An Address For Where You Are Going To Stay In The UK ?</p>
+  <input type="radio" id="yes9" name="yes9" value="yes9">
+  <label for="yes9">Yes</label>
+  <input type="radio" id="no9" name="no9" value="no9">
+  <label for="no9">No</label>
+
+  <p>Do You have any family in the UK ?</p>
+  <input type="radio" id="yes10" name="yes10" value="yes10">
+  <label for="yes10">Yes</label>
+  <input type="radio" id="no10" name="no10" value="no10">
+  <label for="no10">No</label>
+
+  
+  <label for="reasonForPaying">Why are they helping to pay for your visit?</label>
+  <input type="text" id="reasonForPaying" name="reasonForPayment" ><br>
+
+  <label for="travellingCost">How much money will they be paying towards your visit ?</label>
+  <input type="text" id="travellingCost" name="travellingCost" ><br>
+
+  <label for="paymentOnVisit">Who is paying towards the cost of your visit?</label>
+  <input type="text" id="paymentOnVisit" name="paymentOnVisit" ><br>
+
+  <p>Will anyone be paying towards the cost of your visit ?</p>
+  <input type="radio" id="yes11" name="yes11" value="yes11">
+  <label for="yes11">Yes</label>
+  <input type="radio" id="no11" name="no11" value="no11">
+  <label for="no11">No</label>
+
+  <label for="expenditure">What is the total amount of money you spend each month ?</label><br>
+  <select name="expenditure" id="expenditure">
+    <option value="fortyThousand">40-50 thousand</option>
+    <option value="fiftyThousand">50-60 thousand</option>
+    <option value="greaterThanFifty"> >50 thousand</option>
+  </select>
+  <br>
+
+  <label for="expenditurePlanning">How much money are you personally planning to spend on your visit to the UK ?</label><br>
+  <select name="expenditurePlanning" id="expenditurePlanning">
+    <option value="fortyThousand">40-50 thousand</option>
+    <option value="fiftyThousand">50-60 thousand</option>
+    <option value="greaterThanFifty"> >50 thousand</option>
+  </select>
+  <br>
+
+  <p>Do you have another income or any savings ?</p>
+  <input type="radio" id="yes12" name="yes12" value="yes12">
+  <label for="yes12">Yes</label>
+  <input type="radio" id="no12" name="no12" value="no12">
+  <label for="no12">No</label>
+
+  <label for="describeJob">Describe your job </label>
+  <input type="text" id="describeJob" name="describeJob" ><br>
+
+  <label for="earnMoneyAfterTax">How much do you earn each month - after tax ?</label><br>
+  <select name="earnMoneyAfterTax" id="earnMoneyAfterTax">
+    <option value="OneLakh"> One Lakh</option>
+    <option value="greaterThanLakh">> One Lakh</option>
+  </select>
+  <br>
+
+  <label for="jobTitle">Your job title  </label>
+  <input type ="text" id="jobTitle" name="jobTitle" ><br>
+
+  <label for="employeeContactDetails">Employer's telephone number   </label>
+  <input type ="text" id="employeeContactDetails" name="employeeContactDetails" ><br>
+
+    <label for="legalPermissions">For either the UK or any other country ,have you ever been:</label><br>
+  <select name="legalPermissions" id="legalPermissions">
+    <option value="illegal">entered the UK illegally </option>
+    <option value="validity">remained in the beyond the validity of your visa or permissions to stay  </option>
+    <option value="leaving">breached the conditions of your leave ,for example,worked With out permission </option>
+    <option value="funds">received public funds when you did not have permission</option>
+    <option value="falseInfo">given false info when applying for a visa, leave to enter, or leave to remain</option>
+    <option value="immigration">breached UK immigration law in any other way</option>
+    
+  </select>
+  <br>
+
+  <p>Have you been to the UK in the past 10 years ?</p>
+  <input type="radio" id="yes13" name="yes13" value="yes13">
+  <label for="yes13">Yes</label>
+  <input type="radio" id="no13" name="no13" value="no13">
+  <label for="no13">No</label><br>
+  
+
+
+  <h3>Travel history (UK)</h3>
+
+  <label for="countryVisit">Which country did you visit?</label>
+  <input type ="text" id="countryVisit" name="countryVisit" ><br>
+
+  
+  <label for="visitingTimes">How many times have you visited the following places in the past 10 years?</label><br>
+  <select name="visitingTimes" id="visitingTimes">
+    <option value="one">1 time</option>
+    <option value="two">2 times</option>
+    <option value="three">3 times</option>
+    <option value="moreThanThree"> >3 years</option>
+  </select>
+  <br>
+
+  <input type="checkbox" id="declaration" name="declaration" value="declaration">
+  <label for="declaration">I have read all of the info about terrorist activities, organisations and views.</label><br>
+
+  <p>Have you, by any means or medium, expressed views that justify or glorify terrorist violence or that may encourage others to commit terrorist or other serious criminal acts?</p>
+  <input type="radio" id="yes14" name="yes14" value="yes14">
+  <label for="yes14">Yes</label>
+  <input type="radio" id="no14" name="no14" value="no14">
+  <label for="no14">No</label><br>
+
+
+  <p>Have you ever been a member of, or given support to, an organisation which has been concerned terrorism?</p>
+  <input type="radio" id="yes15" name="yes15" value="yes15">
+  <label for="yes15">Yes</label>
+  <input type="radio" id="no15" name="no15" value="no15">
+  <label for="no15">No</label><br>
+  
+  
+  <p>Have you ever been involved in, supported or encouraged terrorist activities in any country?</p>
+  <input type="radio" id="yes16" name="yes16" value="yes16">
+  <label for="yes16">Yes</label>
+  <input type="radio" id="no16" name="no16" value="no16">
+  <label for="no16">No</label><br>
+ 
+
+  <p>In either peace or war time have you ever been involved in, or suspected of involvement in, war crimes, crimes against humanity, or genocide?</p>
+  <input type="radio" id="yes17" name="yes17" value="yes17">
+  <label for="yes17">Yes</label>
+  <input type="radio" id="no17" name="no17" value="no17">
+  <label for="no17">No</label><br>
+
+
+  <p>Is there any other info about your character or behaviour which you would like to make us aware of?</p>
+  <input type="radio" id="yes18" name="yes18" value="yes18">
+  <label for="yes18">Yes</label>
+  <input type="radio" id="no18" name="no18" value="no18">
+  <label for="no18">No</label><br>
+
+  <p>Have you ever engaged in any other activities which might indicate that you may not be considered to be a person of good character?</p>
+  <input type="radio" id="yes19" name="yes19" value="yes19">
+  <label for="yes19">Yes</label>
+  <input type="radio" id="no19" name="no19" value="no19">
+  <label for="no19">No</label><br>
+
+  <p>Have you, as a part of your employment or otherwise, undertaken paid or unpaid activity on behalf of a non-UK government which you know to be dangerous to the interests or national security of the UK or its allies?</p>
+  <input type="radio" id="yes20" name="yes20" value="yes20">
+  <label for="yes20">Yes</label>
+  <input type="radio" id="no20" name="no20" value="no20">
+  <label for="no20">No</label><br>
+
+
+  <p>Have you, by any means or medium, expressed any extremist views?</p>
+  <input type="radio" id="yes21" name="yes21" value="yes21">
+  <label for="yes21">Yes</label>
+  <input type="radio" id="no21" name="no21" value="no21">
+  <label for="no21">No</label><br>
+
+  <p>Have you ever been a member of, or given support to, an organisation which is or has been concerned with extremism?</p>
+  <input type="radio" id="yes22" name="yes22" value="yes22">
+  <label for="yes22">Yes</label>
+  <input type="radio" id="no22" name="no22" value="no22">
+  <label for="no22">No</label><br>
+   
+  <input type="checkbox" id="" name="conditions" value="conditions">
+  <label for="conditions"> I confirm that I understand and accept these conditions</label><br>
+
+
+  <label for="totalPrice">Total Price:</label>
+  <input type="text" id="totalPrice" name="totalPrice" value=" "><br>
+
+  <label for="visitVisa">Length of your visit visa:</label>
+  <select name="visitVisa" id="visitVisa">
+    <option value="1year">1year</option>
+    <option value="2year">2year</option>
+    <option value="3year">3year</option>
+    <option value="greaterThanThree">greaterThanThree</option>
+  </select>
+  <br>
+
+  <p>Do you have a UK National Insurance number?</p>
+  <input type="radio" id="yes22" name="yes22" value="yes22">
+  <label for="yes22">Yes</label>
+  <input type="radio" id="no22" name="no22" value="no22">
+  <label for="no22">No</label><br>
+
+  <label for="whichLanguage">We may have to talk to you about your application Which language would you prefer to use?:</label>
+  <input type="text" id="whichLanguage" name="whichLanguage"><br>
+
+  <input type="checkbox" id="ageLimit" name="ageLimit" value="ageLimit">
+  <label for="ageLimit"> I am the applicant aged 18 or over</label><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+  
+   
+ 
+
+ 
+  
+  <input type="submit" value="Submit">
+</form> 
