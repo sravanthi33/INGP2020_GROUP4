@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: Admin
+Build-Jdk: 14.0.2
+Implementation-Title: visa
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: visa
+Implementation-URL: https://spring.io/projects/spring-boot/visa
+Created-By: Maven Integration for Eclipse
+
